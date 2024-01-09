@@ -676,7 +676,6 @@ PODS:
     - MotionInterchange (~> 3.0)
   - MotionInterchange (3.0.0)
   - OTPFieldView (1.0.1)
-  - ProgressHUD (14.1.0)
   - RangeSeekSlider (1.8.0)
   - SCLAlertView (0.8)
   - SnapKit (5.6.0)
@@ -696,7 +695,6 @@ DEPENDENCIES:
   - MaterialComponents
   - MessageKit (~> 3.3.0)
   - OTPFieldView
-  - ProgressHUD
   - RangeSeekSlider
   - SCLAlertView
   - SOTabBar
@@ -725,7 +723,6 @@ SPEC REPOS:
     - MotionAnimator
     - MotionInterchange
     - OTPFieldView
-    - ProgressHUD
     - RangeSeekSlider
     - SCLAlertView
     - SnapKit
@@ -754,13 +751,12 @@ SPEC CHECKSUMS:
   MotionAnimator: 5f99d7c9592928c0f28a66283eda9c3b657dc480
   MotionInterchange: 13adae439b377e31d1674cc165539d50e1d1566a
   OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
-  ProgressHUD: c4a55f108815c46a6bf082407d2f806840b7a869
   RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SOTabBar: 27aea95bd6b39d1be3535c867a2cd3b5adc172e6
   UIFloatLabelTextView: 96b7c5a18739fd1af8fd9480f7943d75a7547e4d
 
-PODFILE CHECKSUM: 3dac0b6cc620d285f0079400fdbabd88b8f6d010
+PODFILE CHECKSUM: 8e0c1cf6472f69125f7423f94f785ecf54d2d184
 
 COCOAPODS: 1.12.0

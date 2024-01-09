@@ -5,7 +5,6 @@
 //  Created by Apple on 09/01/2024.
 //
 
-import Foundation
 import UIKit
 
 class LandingPage1VC : UIViewController {

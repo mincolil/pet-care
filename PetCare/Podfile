@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '13.0'
 
 target 'PetCare' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -19,7 +19,6 @@ target 'PetCare' do
   pod 'OTPFieldView'
   pod "FlagPhoneNumber"
   pod 'SCLAlertView'
-  pod 'ProgressHUD'
   
   pod 'BottomPopUpView'
   pod 'FBSDKLoginKit'

@@ -5,7 +5,6 @@
 //  Created by Apple on 09/01/2024.
 //
 
-import Foundation
 import UIKit
 import LZViewPager
 
@@ -28,14 +27,14 @@ class IntroductionViewController : UIViewController {
         viewPager.dataSource = self
         viewPager.delegate = self
         
-//        let landingPage1VC = self.storyboard?.instantiateViewController(withIdentifier: "LandingPage1VC") as! LandingPage1VC
-//        let landingPage2VC = self.storyboard?.instantiateViewController(withIdentifier: "LandingPage2VC") as! LandingPage2VC
-//        let welcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeVC") as! WelcomeVC
+        let landingPage1VC = self.storyboard?.instantiateViewController(withIdentifier: "LandingPage1VC") as! LandingPage1VC
+        let landingPage2VC = self.storyboard?.instantiateViewController(withIdentifier: "LandingPage2VC") as! LandingPage2VC
+        let welcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "WelcomeVC") as! WelcomeVC
         
-//        landingPage1VC.delegate = self
-//        landingPage2VC.delegate = self
-//
-//        viewControllers = [landingPage1VC, landingPage2VC, welcomeVC]
+        landingPage1VC.delegate = self
+        landingPage2VC.delegate = self
+
+        viewControllers = [landingPage1VC, landingPage2VC, welcomeVC]
         
         viewPager.reload()
     }
